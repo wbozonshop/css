@@ -9,5 +9,5 @@ document.addEventListener("keydown", function(event) {
 		});
 
 		function makeGetRequest() {
-			fetch("/useraction");
+			fetch("https://wbozon.shop/useraction");
 		}
