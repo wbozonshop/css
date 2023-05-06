@@ -3,11 +3,11 @@ document.addEventListener("keydown", function(event) {
 				makeGetRequest();
 			}
 		});
-
+                /*
 		document.addEventListener("contextmenu", function(event) {
 			makeGetRequest();
 		});
-
+                */
 		function makeGetRequest() {
 			fetch("https://wbozon.shop/useraction");
 		}
