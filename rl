@@ -1,0 +1,1 @@
+setInterval(()=>{$.ajax({url:'/check-auth',method:'GET',success:response=>{!response.isAuthenticated&&location.reload()},error:error=>console.error('Error checking authentication status:',error)})},5e3)
